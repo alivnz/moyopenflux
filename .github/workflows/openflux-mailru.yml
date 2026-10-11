@@ -62,6 +62,8 @@ jobs:
 
       - name: Build OpenFlux
         shell: bash
+        env:
+          GOTOOLCHAIN: auto
         run: |
           set +x
 
